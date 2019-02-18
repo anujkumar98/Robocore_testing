@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>ROBOCORE'19</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!--Social Media-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar" style="scroll-behavior: auto">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border: none;">&times;</a>
+
+        <h1 style="color: white;margin-left: 15%;">ROBOCORE</h1>
+        <hr id="blahblah">
+
+        <a href="#" class="firsta">Home</a>
+        <a href="#">About Us</a>
+        <a href="events.html">Events</a>
+        <a href="#">Shedule</a>
+        <a href="#">Help Desk</a>
+        <a href="#">Sponsors</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">Developers</a>
+
+    </div>
+
+    <div id="main">
+
+        <div class="content">
+            <div class="topbar">
+                <button class="openbtn" id="openbtn" onclick="openNav()"
+                    style="border: 2px solid white; border-radius: 5px">&#9776;</button>
+                <div class="social">
+                    <a href="" class="fa fa-facebook"></a>
+
+
+                    <a href="#" class="fa fa-instagram"></a>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.375573721884!2d77.12390611477443!3d13.326897890623496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb02e826fb691ef%3A0xe78608813c36f380!2sSiddaganga+Institute+Of+Technology%2C+Tumakuru!5e0!3m2!1sen!2sin!4v1550479092024"
+            width="1200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <script>
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("openbtn").style.display = "none";
+        }
+
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("openbtn").style.display = "inline-block";
+        }
+    </script>
+</body>
+
+</html>
