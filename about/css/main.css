@@ -1,0 +1,28 @@
+.about{
+    margin: 10px;
+    text-align: center;
+}
+.about h2{
+    font-size: 3.5rem;
+	color: #fff;
+	margin: 0.5em 0 0.5em 0;
+	padding: 0;
+}
+.content-main{
+    font-size: 1rem;
+	color: rgba(180, 255, 6, 0.95);
+    margin-bottom: 1.75em;
+    align-content: center;
+    max-width: 80%;
+    margin: 5% 20%;
+    font-size: 120%;
+}
+.divider{
+     height:5px;
+    color:white;
+    background-color:white;
+    border-radius: 20px;
+    opacity: 0.8;
+    align-content: center;
+    max-width: 80%;
+}
