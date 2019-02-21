@@ -17,6 +17,48 @@ body{
     width: 100%;
 }
 
+/* here is the css for Clock */
+
+        #clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            display:inline-block;
+            font-weight: 100;
+            text-align: center;
+            font-size: 30px;
+           margin-top: 10%;
+           width: 40%;
+          
+        }
+
+        #clockdiv>div {
+           padding: 10px 10px 10px 10px;
+            border-radius: 3px;
+            background: #00BF96;
+            display: inline-block;
+            width: 15%;
+            margin-top: 5%;
+           
+          }
+
+        #clockdiv div>span {
+            
+            border-radius: 3px;
+            background: #00816A;
+            display: inline-block;
+            width: 100%;
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+
+        .smalltext {
+            padding-top: 5px;
+            font-size: 18px !important;
+        }
+
+  /* the css for the clock closes here */
+
+
 
 .center {
   position: fixed;

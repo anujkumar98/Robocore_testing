@@ -78,11 +78,35 @@
                     <h1>ROBOCORE'19</h1>
                 </div>
 
+                <div id="clockdiv" class="center">
+                    <h2>Event Starts In</h2>
+                    <div>
+                        <span class="days" id="day"></span>
+                        <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                        <span class="hours" id="hour"></span>
+                        <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                        <span class="minutes" id="minute"></span>
+                        <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                        <span class="seconds" id="second"></span>
+                        <div class="smalltext">Seconds</div>
+                    </div>
+                </div>
+                
+                <p id="demo"></p>
+
             </div>
 
 
         </div>
+        <script src="js/timer.js"></script>
     <script>
+
         /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
         function openNav() {
         document.getElementById("mySidebar").style.width = "250px";
