@@ -26,3 +26,76 @@
     align-content: center;
     max-width: 80%;
 }
+/* BANNER */
+#banner {
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+    #banner h1 {
+        font-size: 3.5em;
+        font-weight: 100;
+        color: #fff;
+        line-height: 1em;
+        margin: 0 0 0.5em 0;
+        padding: 0;
+    }
+
+    #banner p {
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.55);
+        margin-bottom: 1.75em;
+    }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+        #banner {
+            background-attachment: scroll;
+        }
+
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        #banner {
+            padding: 10em 2em 8em 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        #banner {
+            background-attachment: scroll;
+        }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #banner {
+            padding: 8em 1.5em 6em 1.5em;
+        }
+
+            #banner h1 {
+                font-size: 2.5em;
+            }
+
+            #banner p {
+                font-size: .9em;
+            }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #banner {
+            padding: 6em 1.5em 4em 1.5em;
+        }
+
+    }
