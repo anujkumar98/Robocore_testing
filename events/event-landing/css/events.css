@@ -1,15 +1,13 @@
 body{
-    background:url(transformers.jpg);
+    background:url(/css/transformers.jpg);
     color: #000000 !important;
 }
-body h1{
-    text-align: center;
-    size: 2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    opacity: 0.8;
-    align-content: center;
+.title-main{
+  text-align: center;
+  align-content: center;
+  margin:3%;
 }
-#content{
+#content-main{
 
     align-self: auto;
     display: grid;
@@ -19,7 +17,7 @@ body h1{
     grid-gap: 1em;
     margin: 0 auto;
     text-align: center;
-    max-width: 960px;
+    max-width: 980px;
 
 }
 .event-card{
@@ -29,7 +27,7 @@ body h1{
     padding: 20px 10px ;
     border: 1px solid #161616;
     perspective: 1000px;
-    height: 15rem;
+    height: 18rem;
 }
 .event-card-inner {
 
