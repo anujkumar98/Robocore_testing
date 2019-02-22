@@ -2,6 +2,7 @@ html{
     overflow: hidden;
 }
 body{
+    height: 100%;
     margin: 0;
     padding: 0;
 
@@ -173,44 +174,102 @@ h1 span:nth-child(10){
     box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
   }
   /* MEDIA */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 320px) {
     h1 {
         font-size: 1.5em;
         letter-spacing: 0;
+        margin: 10%;
+
     }
     h1 span:nth-child(1){
-        animation-delay: 0.1s;
+        animation-delay: 0.14s;
     }
     h1 span:nth-child(2){
-        animation-delay: 0.18s;
+        animation-delay: 0.25s;
     }
     h1 span:nth-child(3){
-        animation-delay: 0.24s;
+        animation-delay: 0.34s;
     }
     h1 span:nth-child(4){
-        animation-delay: 0.3s;
+        animation-delay: 0.42s;
     }
     h1 span:nth-child(5){
-        animation-delay: 0.38s;
+        animation-delay: 0.51s;
     }
     h1 span:nth-child(6){
-        animation-delay: 0.44s;
+        animation-delay: 0.60s;
     }
     h1 span:nth-child(7){
-        animation-delay: 0.5s;
+        animation-delay: 0.68s;
     }
     h1 span:nth-child(8){
-        animation-delay: 0.58s;
+        animation-delay: 0.75s;
     }
     h1 span:nth-child(9){
-        animation-delay: 0.65s;
+        animation-delay: 0.82s;
     }
     h1 span:nth-child(10){
-        animation-delay:0.72s;
+        animation-delay:0.88s;
     }
     .btn{
         animation-delay: 3.5s;
         font-size: 1.3rem;
         font-weight: 300
     }
+    .settion::before{
+        left:-40%;
+    }
+    video{
+        margin: -13%;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 2em;
+        letter-spacing: 0;
+        margin-top: 10%;
+
+    }
+    h1 span:nth-child(1){
+        animation-delay: 0.14s;
+    }
+    h1 span:nth-child(2){
+        animation-delay: 0.25s;
+    }
+    h1 span:nth-child(3){
+        animation-delay: 0.34s;
+    }
+    h1 span:nth-child(4){
+        animation-delay: 0.42s;
+    }
+    h1 span:nth-child(5){
+        animation-delay: 0.51s;
+    }
+    h1 span:nth-child(6){
+        animation-delay: 0.60s;
+    }
+    h1 span:nth-child(7){
+        animation-delay: 0.68s;
+    }
+    h1 span:nth-child(8){
+        animation-delay: 0.75s;
+    }
+    h1 span:nth-child(9){
+        animation-delay: 0.82s;
+    }
+    h1 span:nth-child(10){
+        animation-delay:0.88s;
+    }
+    .btn{
+        animation-delay: 3.5s;
+        font-size: 1.3rem;
+        font-weight: 300
+    }
+    .settion::before{
+        left:-40%;
+    }
+    video{
+        margin: -13%;
+    }
+
   }
