@@ -19,7 +19,7 @@ body{
 
 /* here is the css for Clock */
 
-        #clockdiv {
+        /* #clockdiv {
             font-family: sans-serif;
             color: #fff;
             display:inline-block;
@@ -54,7 +54,7 @@ body{
         .smalltext {
             padding-top: 5px;
             font-size: 18px !important;
-        }
+        } */
 
   /* the css for the clock closes here */
 
@@ -62,7 +62,7 @@ body{
 
 .center {
   position: fixed;
-  top: 50%;
+  top: 65%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
