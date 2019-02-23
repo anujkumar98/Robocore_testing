@@ -10,7 +10,7 @@
 }
 .content-main{
     font-size: 1rem;
-	color: rgba(180, 255, 6, 0.95);
+	color: #fff;
     margin-bottom: 1.75em;
     align-content: center;
     max-width: 80%;
@@ -33,7 +33,8 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 2vh;
+    color: #fff;
 }
 
     #banner h1 {

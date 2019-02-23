@@ -4,7 +4,9 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 2vh;
+
+ color:white;
 }
 .wrapper{
     color: #fff;
