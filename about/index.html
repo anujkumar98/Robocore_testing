@@ -5,12 +5,14 @@
         <title>ROBOCORE'19</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="stylesheet" type="text/css" href="../about/css/main.css">
+        <link rel="stylesheet" href="../css/particle.css.css">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <!--Social Media-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     </head>
     <body>
+        <div id="particles-js"></div>
         <div id="mySidebar" class="sidebar" style="scroll-behavior: auto">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border: none;">&times;</a>
 
@@ -30,17 +32,18 @@
             <div class="content">
                 <div class="topbar">
                     <button class="openbtn" id="openbtn" onclick="openNav()" style="border: 2px solid white; border-radius: 5px">&#9776;</button>
-                    
+
                 </div>
             </div>
 
             <div class="social">
-                <a href="" class="fa fa-facebook"></a>
-            
-            
-                <a href="#" class="fa fa-instagram"></a>
-            
-            
+                <a href="www.facebook.com/thecorsit/" class="fa fa-facebook"></a>
+
+
+                <a href="www.instagram.com/corsit.sit/" class="fa fa-instagram"></a>
+
+
+
             </div>
         </div>
         <section id="banner">
@@ -90,5 +93,10 @@
         document.getElementById("openbtn").style.display = "inline-block";
         }
     </script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/particle.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     </body>
 </html>

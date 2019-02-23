@@ -11,6 +11,8 @@
     <!--Social Media-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/particle.css.css">
+
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +23,7 @@
 </head>
 
 <body>
+    <div id="particles-js"></div>
     <div id="mySidebar" class="sidebar" style="scroll-behavior: auto">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border: none;">&times;</a>
 
@@ -42,7 +45,7 @@
             <div class="topbar">
                 <button class="openbtn" id="openbtn" onclick="openNav()"
                     style="border: 2px solid white; border-radius: 5px">&#9776;</button>
-                
+
             </div>
             <div class="social">
                 <a href="" class="fa fa-facebook"></a>
@@ -117,6 +120,11 @@
             document.getElementById("openbtn").style.display = "inline-block";
         }
     </script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../../js/particle.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 </body>
 
 </html>
