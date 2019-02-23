@@ -1,5 +1,5 @@
 body{
-    background:url(/css/transformers.jpg);
+    background-repeat:repeat-x;
     color: #000000 !important;
 }
 .title-main{
@@ -42,7 +42,7 @@ body{
     padding: 20px 10px ;
     border: 1px solid #161616;
     perspective: 1000px;
-    height: 300px;
+    height: 200px;
     width: 300px;
     margin: 10px;
 
@@ -66,10 +66,13 @@ body{
   }
   .event-card-front {
     background-color: #bbb;
-    color: black;
+    color: #fff;
+  }
+  b{
+    text-transform:uppercase;
   }
   .event-card-back {
-    background-color: dodgerblue;
+color:#fff;
     transform: rotateY(180deg);
   }
   /* BANNER */
