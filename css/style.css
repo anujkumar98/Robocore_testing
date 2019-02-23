@@ -13,7 +13,7 @@ video {   position: fixed;
   left: 50%;
   z-index: -2;
   transform: translate(-50.0%, -50%);
-  width: 120%;
+  width: 105%;
   height: 120%;
 }
 
@@ -84,9 +84,10 @@ body{
  margin-top: 10%;
 }
 #blahblah{
-    color: white;
+    color:#ffb101 !important;
     width: 80%;
-      margin-top: 30%;
+    margin-top: 15%;
+    background:#ffb101;
 }
 
 
@@ -102,7 +103,7 @@ body{
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
-    opacity: 0.8;
+    opacity: 0.7;
   }
 
   /* The sidebar links */
@@ -115,7 +116,7 @@ body{
     color: white;
     display: block;
     transition: 0.3s;
-    border: 1px solid orange;
+    border: 1px solid #ffb101;
 
     margin-left: 10%;
     margin-right: 10%;
@@ -125,8 +126,8 @@ body{
 
   /* When you mouse over the navigation links, change their color */
   .sidebar a:hover {
-   background: orange;
-   color:navy;
+   background:#ffb101;
+   color:black;
   }
 
   /* Position and style the close button (top right corner) */
@@ -169,6 +170,7 @@ body{
       color: white;
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
+padding-top: 1.5%;
   }
    /* Style all font awesome icons */
 .fa {

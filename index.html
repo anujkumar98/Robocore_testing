@@ -2,17 +2,20 @@
 <html style="overflow: hidden;">
     <head>
         <title>ROBOCORE'19</title>
+        <link rel="stylesheet" href="css/particle.css.css">
         <link rel="stylesheet" type="text/css" href="../Robocore_testing/css/style.css">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <!--Social Media-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
         <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
         <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     </head>
 
 
     <body>
+        <div id="particles-js"></div>
         <div id="mySidebar" class="sidebar" style="scroll-behavior: auto">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border: none;">&times;</a>
 
@@ -39,7 +42,7 @@
 
             <div id="backvid-div">
                 <video autoplay loop muted id="backvid" >
-                    <source src="assets/LOGO REVEAL.mp4" type="video/mp4">
+                    <source src="assets/logo REVEL WEB.mp4" type="video/mp4">
                 </video>
             </div>
 
@@ -97,17 +100,22 @@
         }
 
 
-         $(function () {
-                FlipClock.Lang.Custom = { days: 'Days', hours: 'Hours', minutes: 'Minutes', seconds: 'Seconds' };
-                var opts = {
-                    clockFace: 'DailyCounter',
-                    countdown: true,
-                    language: 'Custom'
-                };
-                var countdown = 1553311800 - ((new Date().getTime()) / 1000); // from: 03/23/2019 09:00 am +0530
-                countdown = Math.max(1, countdown);
-                $('.clock-builder-output').FlipClock(countdown, opts);
-            });
+        //  $(function () {
+        //         FlipClock.Lang.Custom = { days: 'Days', hours: 'Hours', minutes: 'Minutes', seconds: 'Seconds' };
+        //         var opts = {
+        //             clockFace: 'DailyCounter',
+        //             countdown: true,
+        //             language: 'Custom'
+        //         };
+        //         var countdown = 1553311800 - ((new Date().getTime()) / 1000); // from: 03/23/2019 09:00 am +0530
+        //         countdown = Math.max(1, countdown);
+        //         $('.clock-builder-output').FlipClock(countdown, opts);
+        //     });
     </script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particle.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     </body>
 </html>
