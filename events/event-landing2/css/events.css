@@ -17,13 +17,14 @@ body{
     grid-gap: 1em;
     margin: 0 auto;
     text-align: center;
-
+    
 }
 .container{
     display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .divider{
   height:5px;
  color:white;
@@ -43,8 +44,9 @@ body{
     border: 1px solid #161616;
     perspective: 1000px;
     height: 300px;
-    width: 300px;
+    width: 500px;
     margin: 10px;
+    
 
 }
 .event-card-inner {
