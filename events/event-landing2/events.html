@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/particle.css.css">
     <link rel="stylesheet" href="css/events.css">
     <title>Events</title>
     <!--Social Media-->
@@ -13,6 +14,7 @@
 </head>
 
 <body>
+    <div id="particles-js"></div>
     <div id="mySidebar" class="sidebar" style="scroll-behavior: auto">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="border: none;">&times;</a>
 
@@ -34,7 +36,7 @@
                 <button class="openbtn" id="openbtn" onclick="openNav()"
                     style="border: 2px solid white; border-radius: 5px">&#9776;</button>
                 </div>
-            
+
 
         </div>
         <div class="social">
@@ -101,6 +103,12 @@
             document.getElementById("openbtn").style.display = "inline-block";
         }
     </script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../../js/particle.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
     </body>
 
 </html>
