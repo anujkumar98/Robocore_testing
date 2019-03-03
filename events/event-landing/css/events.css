@@ -90,7 +90,11 @@ color:#fff;
     #banner h1 {
         font-size: 3.5em;
         font-weight: 100;
+<<<<<<< HEAD
         color: rgb(255, 255, 255);
+=======
+        color:white;
+>>>>>>> 5cd71cbdd0cf532396672e44acd9d495bcae8f1f
         line-height: 1em;
         margin: 0 0 0.5em 0;
         padding: 0;

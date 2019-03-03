@@ -69,11 +69,16 @@ body{
   }
   .event-card-front {
     background-color: #bbb;
+<<<<<<< HEAD
     color: rgb(255, 255, 255);
+=======
+    color:white;
+>>>>>>> 5cd71cbdd0cf532396672e44acd9d495bcae8f1f
   }
   .event-card-back {
     background-color: rgb(255, 255, 255);
     transform: rotateY(180deg);
+    color: white;
   }
   /* BANNER */
   #banner {
@@ -88,17 +93,27 @@ body{
 }
 
     #banner h1 {
+      color:white !important;
         font-size: 3.5em;
         font-weight: 100;
+<<<<<<< HEAD
         color: rgb(255, 255, 255);
+=======
+
+>>>>>>> 5cd71cbdd0cf532396672e44acd9d495bcae8f1f
         line-height: 1em;
         margin: 0 0 0.5em 0;
         padding: 0;
+
     }
 
     #banner p {
         font-size: 1em;
+<<<<<<< HEAD
         color: rgb(255, 255, 255);
+=======
+        color:white !important;
+>>>>>>> 5cd71cbdd0cf532396672e44acd9d495bcae8f1f
         margin-bottom: 1.75em;
     }
 
