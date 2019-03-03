@@ -9,7 +9,11 @@ body{
 }
 section{
     background: #000;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+    width: 100%;
 }
 section::before{
     content: '';
@@ -174,7 +178,7 @@ h1 span:nth-child(10){
     box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5);
   }
   /* MEDIA */
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 440px) {
     h1 {
         font-size: 1.5em;
         letter-spacing: 0;
@@ -220,56 +224,6 @@ h1 span:nth-child(10){
         left:-40%;
     }
     video{
-        margin: -13%;
+        opacity: 0;
     }
-  }
-  @media only screen and (max-width: 375px) {
-    h1 {
-        font-size: 2em;
-        letter-spacing: 0;
-        margin-top: 10%;
-
-    }
-    h1 span:nth-child(1){
-        animation-delay: 0.14s;
-    }
-    h1 span:nth-child(2){
-        animation-delay: 0.25s;
-    }
-    h1 span:nth-child(3){
-        animation-delay: 0.34s;
-    }
-    h1 span:nth-child(4){
-        animation-delay: 0.42s;
-    }
-    h1 span:nth-child(5){
-        animation-delay: 0.51s;
-    }
-    h1 span:nth-child(6){
-        animation-delay: 0.60s;
-    }
-    h1 span:nth-child(7){
-        animation-delay: 0.68s;
-    }
-    h1 span:nth-child(8){
-        animation-delay: 0.75s;
-    }
-    h1 span:nth-child(9){
-        animation-delay: 0.82s;
-    }
-    h1 span:nth-child(10){
-        animation-delay:0.88s;
-    }
-    .btn{
-        animation-delay: 3.5s;
-        font-size: 1.3rem;
-        font-weight: 300
-    }
-    .settion::before{
-        left:-40%;
-    }
-    video{
-        margin: -13%;
-    }
-
   }
