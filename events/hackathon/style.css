@@ -1,0 +1,31 @@
+html{
+    overflow: scroll !important;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+
+}
+.button{
+    padding: 15% 15%;
+    transition: all 0.5s;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 0.5%;
+    background: white;
+
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+body h1{
+    color: white;
+    text-align: center;
+}
