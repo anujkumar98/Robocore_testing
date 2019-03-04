@@ -56,7 +56,7 @@ a:active {
 /* To Navigation Style */
 .codrops-top {
 	background: #fff;
-	background: rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.103);
 	text-transform: uppercase;
 	width: 100%;
 	font-size: 0.69em;
@@ -70,8 +70,8 @@ a:active {
 }
 
 .codrops-top a:hover {
-	color: #e74c3c;
-	background: rgba(255,255,255,0.6);
+	color: #222222;
+	background: rgba(255, 255, 255, 0.103);
 }
 
 .codrops-top span.right {
@@ -106,7 +106,7 @@ a:active {
 button {
 	border: none;
 	padding: 0.6em 1.2em;
-	background: #c0392b;
+	background: rgba(255, 255, 255, 0.103);
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 1em;
@@ -116,10 +116,14 @@ button {
 	display: inline-block;
 	margin: 3px 2px;
 	border-radius: 2px;
+	max-width: 25%;
+	max-height: 25%;
+	text-align:justify;
+	justify-content: center;
 }
 
 button:hover {
-	background: #A5281B;
+	background: rgba(255, 255, 255, 0.103);
 }
 
 @media screen and (max-width: 46.0625em) {
