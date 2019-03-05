@@ -6,12 +6,28 @@ html{
   color: white;margin-left: 12% !important;
   font-family: 'Aldrich', sans-serif !important;
 }
+.registerdata{
+margin-left:20%;
+margin-right: 20%;
+}
 
 .logo{
 height:25%;
 width: 70%;
 margin-left: 15%;
 margin-top: 5%;
+
+}
+.container{
+display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.rules{
+
+color: white !important;
+font-size:1.5rem;
 
 }
 .text-center {
@@ -155,6 +171,8 @@ body{
 .center h1{
     color: white;
 }
+
+
 
 .firsta{
  margin-top: 10%;
